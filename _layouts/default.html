@@ -1,0 +1,15 @@
+---
+---
+
+{% include head.html %}  
+
+<body class="{{ page.id }}">
+  <div class="container">
+    {% include header.html %}   
+    
+    <section id="content" class="block {{ page.title | downcase | replace:' ', '-' }}">
+      {{ content }}
+    </section>          
+  </div>
+</body>
+</html>
