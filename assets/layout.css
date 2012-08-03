@@ -1,9 +1,9 @@
 /*
 Syntax error: Undefined variable: "$pad".
-        on line 45 of /home/cs/work/kotay/assets/layout.scss
+        on line 47 of /home/cs/work/kotay/assets/layout.scss
 
 Backtrace:
-/home/cs/work/kotay/assets/layout.scss:45
+/home/cs/work/kotay/assets/layout.scss:47
 /var/lib/gems/1.8/gems/sass-3.1.20/lib/sass/../sass/script/variable.rb:49:in `_perform'
 /var/lib/gems/1.8/gems/sass-3.1.20/lib/sass/../sass/script/node.rb:40:in `perform'
 /var/lib/gems/1.8/gems/sass-3.1.20/lib/sass/../sass/script/operation.rb:74:in `_perform'
@@ -118,4 +118,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$pad\".\A         on line 45 of /home/cs/work/kotay/assets/layout.scss"; }
+  content: "Syntax error: Undefined variable: \"$pad\".\A         on line 47 of /home/cs/work/kotay/assets/layout.scss"; }

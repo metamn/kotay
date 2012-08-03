@@ -1,15 +1,17 @@
 body.startpage {
   .container {
+    overflow: hidden;
+  
     header {
       .arrow-right {
 	      width: 0; 
 	      height: 0; 
-	      border-top: 20em solid transparent;
-	      border-bottom: 20em solid transparent;	
-	      border-left: 20em solid rgba(255, 255, 255, .7);
+	      border-width: 20em;
+	      border-style: solid;
+	      border-color: transparent transparent transparent rgba(255, 255, 255, .7);
 	      -webkit-background-clip: padding-box; /* for Safari */
         background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
-
+      
 	      
 	      position: relative;
 	      top: -27em;
@@ -40,9 +42,9 @@ body.startpage {
     }
     
     footer {
-      #calendar {
+      nav {
         float: right;
-        margin: $pad*3 $pad 0 0;
+        margin: $pad*4 $pad 0 0;
       }
       .arrow-left {
 	      width: 0; 

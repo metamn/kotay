@@ -157,13 +157,17 @@ h4 {
 
 /* block element -- expand something full size inside a container
 */
-/* line 4, layout.scss */
+/* line 2, layout.scss */
+body.startpage .container {
+  overflow: hidden;
+}
+/* line 6, layout.scss */
 body.startpage .container header .arrow-right {
   width: 0;
   height: 0;
-  border-top: 20em solid transparent;
-  border-bottom: 20em solid transparent;
-  border-left: 20em solid rgba(255, 255, 255, 0.7);
+  border-width: 20em;
+  border-style: solid;
+  border-color: transparent transparent transparent rgba(255, 255, 255, 0.7);
   -webkit-background-clip: padding-box;
   /* for Safari */
   background-clip: padding-box;
@@ -172,7 +176,7 @@ body.startpage .container header .arrow-right {
   top: -27em;
   z-index: -1;
 }
-/* line 21, layout.scss */
+/* line 23, layout.scss */
 body.startpage .container #content #background-image {
   position: fixed;
   top: -50%;
@@ -181,7 +185,7 @@ body.startpage .container #content #background-image {
   height: 200%;
   z-index: -2;
 }
-/* line 29, layout.scss */
+/* line 31, layout.scss */
 body.startpage .container #content #background-image img {
   position: absolute;
   top: 0;
@@ -192,12 +196,12 @@ body.startpage .container #content #background-image img {
   min-width: 50%;
   min-height: 50%;
 }
-/* line 43, layout.scss */
-body.startpage .container footer #calendar {
+/* line 45, layout.scss */
+body.startpage .container footer nav {
   float: right;
-  margin: 3.75em 1.25em 0 0;
+  margin: 5em 1.25em 0 0;
 }
-/* line 47, layout.scss */
+/* line 49, layout.scss */
 body.startpage .container footer .arrow-left {
   width: 0;
   height: 0;
