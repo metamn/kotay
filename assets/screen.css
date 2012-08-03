@@ -1,0 +1,166 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* Typography
+*/
+/* Traditional, em from http://lamb.cc/typograph/ */
+/* line 5, typography.scss */
+body {
+  font-size: 100%;
+  line-height: 1.25;
+}
+
+/* line 6, typography.scss */
+h1, h2, h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 7, typography.scss */
+h1 {
+  font-size: 1.5em;
+  padding: 1.45833em 0;
+}
+
+/* line 8, typography.scss */
+h2 {
+  font-size: 1.33333em;
+  padding: 1.25em 0;
+}
+
+/* line 9, typography.scss */
+h3 {
+  font-size: 1.16667em;
+  padding: 1.51785em 0;
+}
+
+/* line 11, typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+/* line 14, typography.scss */
+h4 {
+  font-variant: small-caps;
+}
+
+/* Site specific mixins
+*/
+/* display post thumbnails 
+*/
+/* display post description
+*/
+/* General mixins
+*/
+/* invert color with background
+*/
+/* set z-index
+
+- parent must have set 'position'
+- this element must have set weight
+- http://www.tjkdesign.com/articles/z-index/teach_yourself_how_elements_stack.asp
+
+*/
+/* rotate
+*/
+/* underline a text with padding and margin
+*/
+/* make cursor to be pointer
+*/
+/* line 80, mixins.scss */
+.j-toggle {
+  cursor: pointer;
+}
+
+/* list, inline 
+*/
+/* table, simple
+*/
+/* make a column 
+*/
+/* box-shadow
+*/
+/* make image fit within container
+*/
+/* hide an element 
+*/
+/* line 158, mixins.scss */
+.hidden {
+  display: none;
+}
+
+/* block element -- expand something full size inside a container
+*/
+/* Generally available settings
+*/
+/* line 19, screen.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
