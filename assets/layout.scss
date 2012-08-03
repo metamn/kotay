@@ -1,6 +1,20 @@
 body.startpage {
   .container {
     header {
+      .arrow-right {
+	      width: 0; 
+	      height: 0; 
+	      border-top: 20em solid transparent;
+	      border-bottom: 20em solid transparent;	
+	      border-left: 20em solid rgba(255, 255, 255, .7);
+	      -webkit-background-clip: padding-box; /* for Safari */
+        background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+
+	      
+	      position: relative;
+	      top: -27em;
+	      z-index: -1;
+      }
     }
     
     #content {
@@ -10,6 +24,7 @@ body.startpage {
         left: -50%; 
         width: 200%; 
         height: 200%;
+        z-index: -2;
         
         img {          
           position: absolute; 
@@ -25,7 +40,26 @@ body.startpage {
     }
     
     footer {
-    
+      #calendar {
+        float: right;
+        margin: $pad*3 $pad 0 0;
+      }
+      .arrow-left {
+	      width: 0; 
+	      height: 0; 
+	      border-top: 20em solid transparent;
+	      border-bottom: 20em solid transparent;	
+	      border-right: 20em solid rgba(255, 255, 255, .7);
+	      -webkit-background-clip: padding-box; /* for Safari */
+        background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+
+	      
+	      position: fixed;
+	      bottom: -27em;
+	      left: 75%;
+	      z-index: -1;
+	      overflow: hidden;
+      }
     }
   }
 }
