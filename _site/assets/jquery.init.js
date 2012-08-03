@@ -1,9 +1,9 @@
 jQuery(document).ready(function() {
 
   // Rotate background images
-  jQuery(".startpage article img").each(function(index) {
+  jQuery(".startpage #background-image img").each(function(index) {
     jQuery(this).hide();
-    jQuery(this).delay(3000 * index).fadeIn(3000).fadeOut();
-  });  
+    jQuery(this).delay(6000 * index).fadeOut('slow').fadeIn('slow');
+  }); 
   
 });
