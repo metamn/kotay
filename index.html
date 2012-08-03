@@ -3,8 +3,9 @@ layout: default
 id: startpage
 ---
 
-<h2>
-  {{ site.title }}
-</h2>
 
-
+<article>
+  {% for i in (1..7) %}
+    <img src="/images/img{{ i }}.jpg">
+  {% endfor %}
+</article>

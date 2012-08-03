@@ -157,9 +157,18 @@ h4 {
 
 /* block element -- expand something full size inside a container
 */
+/* line 5, layout.scss */
+body .container .startpage article img {
+  position: absolute;
+  top: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
 /* Generally available settings
 */
-/* line 19, screen.scss */
+/* line 21, screen.scss */
 img {
   max-width: 100%;
   height: auto;
