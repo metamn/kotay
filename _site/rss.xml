@@ -8,9 +8,36 @@
     <atom:link href="Kotay/rss.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Fri, 03 Aug 2012 13:12:57 EEST</pubDate>
-    <lastBuildDate>Fri, 03 Aug 2012 13:12:57 EEST</lastBuildDate>
+    <pubDate>Sat, 04 Aug 2012 08:27:50 EEST</pubDate>
+    <lastBuildDate>Sat, 04 Aug 2012 08:27:50 EEST</lastBuildDate>
 
+    
+    <item>
+      <title>News</title>
+      <link>/news</link>
+      <pubDate>Sat, 04 Aug 2012 00:00:00 EEST</pubDate>
+      <author></author>
+      <guid>/news</guid>
+      <description>Liquid error: private method `gsub' called for nil:NilClass</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact</link>
+      <pubDate>Sat, 04 Aug 2012 00:00:00 EEST</pubDate>
+      <author></author>
+      <guid>/contact</guid>
+      <description>Liquid error: private method `gsub' called for nil:NilClass</description>
+    </item>
+    
+    <item>
+      <title>Calendar</title>
+      <link>/calendar</link>
+      <pubDate>Sat, 04 Aug 2012 00:00:00 EEST</pubDate>
+      <author></author>
+      <guid>/calendar</guid>
+      <description>Liquid error: private method `gsub' called for nil:NilClass</description>
+    </item>
     
   </channel> 
 </rss>

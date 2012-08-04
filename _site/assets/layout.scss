@@ -1,4 +1,4 @@
-body.startpage {
+body {
   .container {
     overflow: hidden;
   
@@ -65,3 +65,37 @@ body.startpage {
     }
   }
 }
+
+
+
+body.post {
+  header {
+    .arrow-right {
+      border-width: 70em;
+      top: -80em;
+    }
+  }
+  
+  #content {
+    article {
+        position: fixed;
+        top: 10%;
+        width: 70%;
+        padding: $pad;
+        margin: 0 15%;
+        text-align: center;
+      }
+  
+  }
+  
+  footer {
+    .arrow-left {
+      border-width: 60em;
+      left: 60%;
+      top: -3em
+    }
+  }
+
+}
+
+

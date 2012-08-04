@@ -67,6 +67,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
+/* line 1, theme.scss */
+article {
+  background: white;
+  opacity: .9;
+}
+
 /* Typography
 */
 /* Traditional, em from http://lamb.cc/typograph/ */
@@ -158,11 +164,11 @@ h4 {
 /* block element -- expand something full size inside a container
 */
 /* line 2, layout.scss */
-body.startpage .container {
+body .container {
   overflow: hidden;
 }
 /* line 6, layout.scss */
-body.startpage .container header .arrow-right {
+body .container header .arrow-right {
   width: 0;
   height: 0;
   border-width: 20em;
@@ -177,7 +183,7 @@ body.startpage .container header .arrow-right {
   z-index: -1;
 }
 /* line 23, layout.scss */
-body.startpage .container #content #background-image {
+body .container #content #background-image {
   position: fixed;
   top: -50%;
   left: -50%;
@@ -186,7 +192,7 @@ body.startpage .container #content #background-image {
   z-index: -2;
 }
 /* line 31, layout.scss */
-body.startpage .container #content #background-image img {
+body .container #content #background-image img {
   position: absolute;
   top: 0;
   left: 0;
@@ -197,12 +203,12 @@ body.startpage .container #content #background-image img {
   min-height: 50%;
 }
 /* line 45, layout.scss */
-body.startpage .container footer nav {
+body .container footer nav {
   float: right;
   margin: 5em 1.25em 0 0;
 }
 /* line 49, layout.scss */
-body.startpage .container footer .arrow-left {
+body .container footer .arrow-left {
   width: 0;
   height: 0;
   border-top: 20em solid transparent;
@@ -217,6 +223,27 @@ body.startpage .container footer .arrow-left {
   left: 75%;
   z-index: -1;
   overflow: hidden;
+}
+
+/* line 73, layout.scss */
+body.post header .arrow-right {
+  border-width: 70em;
+  top: -80em;
+}
+/* line 80, layout.scss */
+body.post #content article {
+  position: fixed;
+  top: 10%;
+  width: 70%;
+  padding: 1.25em;
+  margin: 0 15%;
+  text-align: center;
+}
+/* line 92, layout.scss */
+body.post footer .arrow-left {
+  border-width: 60em;
+  left: 60%;
+  top: -3em;
 }
 
 /* Generally available settings

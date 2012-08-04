@@ -4,12 +4,36 @@
 	<title type="text" xml:lang="en">Kotay. </title>
 	<link type="application/atom+xml" href="/feed/" rel="self"/>
  	<link type="text" href="" rel="alternate"/>
-	<updated>2012-08-03T13:12:57+03:00</updated>
+	<updated>2012-08-04T08:27:50+03:00</updated>
 	<id></id>
 	<author>
 		<name>Kotay</name>
 	</author>
 	<rights></rights>
 	
+	
+	<entry>
+		<title>News</title>
+		<link href="/news"/>
+		<updated>2012-08-04T00:00:00+03:00</updated>
+		<id>http:///news</id>
+		<content type="html">Liquid error: private method `gsub' called for nil:NilClass</content>
+	</entry>
+	
+	<entry>
+		<title>Contact</title>
+		<link href="/contact"/>
+		<updated>2012-08-04T00:00:00+03:00</updated>
+		<id>http:///contact</id>
+		<content type="html">Liquid error: private method `gsub' called for nil:NilClass</content>
+	</entry>
+	
+	<entry>
+		<title>Calendar</title>
+		<link href="/calendar"/>
+		<updated>2012-08-04T00:00:00+03:00</updated>
+		<id>http:///calendar</id>
+		<content type="html">Liquid error: private method `gsub' called for nil:NilClass</content>
+	</entry>
 	
 </feed>

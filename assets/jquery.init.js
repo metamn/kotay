@@ -8,8 +8,8 @@ jQuery(document).ready(function() {
   
   // Click on background image and show menu
   jQuery("footer nav a").click(function(event) {
-    event.preventDefault();    
-    alert('a');
+    //event.preventDefault();    
+    //alert('a');
         
     jQuery('.arrow-right').animate({
       borderLeftWidth: "70em",

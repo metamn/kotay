@@ -4,11 +4,32 @@
   
   <url>
 		<loc></loc>
-		<lastmod>2012-08-03T13:12:57+03:00</lastmod>
+		<lastmod>2012-08-04T08:27:50+03:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>
 	</url>
 	
+	
+	<url>
+		<loc>/news/</loc>
+		<lastmod>2012-08-04T08:27:50+03:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	
+	<url>
+		<loc>/contact/</loc>
+		<lastmod>2012-08-04T08:27:50+03:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	
+	<url>
+		<loc>/calendar/</loc>
+		<lastmod>2012-08-04T08:27:50+03:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
 	
 </urlset>
 

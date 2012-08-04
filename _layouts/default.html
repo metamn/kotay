@@ -9,6 +9,12 @@
     
     <section id="content" class="{{ page.title | downcase | replace:' ', '-' }}">
       {{ content }}
+      
+      <div id="background-image">
+        {% for i in (1..7) %}  
+          <img src="/images/img{{ i }}.jpg">
+        {% endfor %}
+      </div>
     </section>     
     
     {% include footer.html %}     
