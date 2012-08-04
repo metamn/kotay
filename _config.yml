@@ -1,3 +1,4 @@
 permalink: /:title
 
 title: Kotay
+exclude:  [ Gemfile, Gemfile.lock, Procfile, vendor]
